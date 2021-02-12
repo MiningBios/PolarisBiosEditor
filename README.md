@@ -32,6 +32,7 @@ Never download programs from comments, forums or other third party resources.
 - **Target temperature** — this temperature, which the card will try to maintain, either by increasing the fan speed or lowering the frequencies, which is used less often, it all depends on the manufacturer.
 - **Power control limit** — if you don’t want to use **Afterburner**, then this is the same **Power limit,** lower it in the same way.
 
+## Update history:
 
 ### v1.7.5
 - Added UberMix 3.3
