@@ -16,13 +16,16 @@ Never download programs from comments, forums or other third party resources.
 - Download the latest version of the program
 - Unpack the .zip archive to any place convenient for you
 - Launch PBE — Press the Open Bios button (Upper left corner)
+
 ![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/6xiip53-6xe.jpg)
 
 - Your firmware opens, where your timings are circled in red on the kart.
+
 ![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/polaris.jpg)
 
 - After opening the firmware, click on the One click timing patch (red arrow).
 - All timings were automatically edited. Now press Save as and the firmware will be saved.
+
 ![1](https://polarisbioseditor.eu/wp-content/uploads/2020/12/polaris1.jpg)
 
 - You can change the voltage in the **gpu** and **memory graphs**, (Section for experienced users only!)
